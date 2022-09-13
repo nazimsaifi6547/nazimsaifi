@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+int a=20,b=40,c=6;
+if (a>b && a>c){
+    printf("a is greater ");}
+    else if  (b>c && b>a){
+        printf("b is greater ");
+        
+    }
+        else {
+            printf("c is greater ");
+            
+        }
+    
+    
+
+
+
+
+
+ return 0;
+}
