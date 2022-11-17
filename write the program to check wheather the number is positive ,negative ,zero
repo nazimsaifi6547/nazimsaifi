@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    //program-to-check-negative-positive-zero.
+    float a;
+    printf("enter the numbers\n");
+    scanf("%f",&a);
+    if (a>0){
+        printf("number is positive");
+        
+    }
+    else if (a<0){
+        printf("number is negative");
+    }
+    else if (a==0){
+        printf("number is zero");
+    }
+    return 0;
+}
