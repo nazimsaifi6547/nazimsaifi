@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int week;
+    printf("enter the week number(1-7):\n");
+    scanf("%d",&week);
+    switch(week){
+        case 1:
+        printf("day is monday");
+        break;
+        case 2:
+        printf(" day is tuesday");
+        break;
+        case 3:
+        printf(" day i wednesday");
+        break;
+        case 4:
+        printf(" day is thursday");
+        break;
+        case 5:
+        printf(" day is friday ");
+        break;
+        case 6:
+        printf(" dy is saturday");
+        break;
+        case 7:
+        printf("day is sunday");
+        break;
+        default:
+        printf("you have entered the invalid input");
+        break;
+        
+    }
+
+    return 0;
+}
