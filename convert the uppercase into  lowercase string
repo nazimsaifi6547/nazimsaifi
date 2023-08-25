@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+void capitalizeKthCharacter(char *str, int k) {
+    if (k >= 0 && k < strlen(str)) {
+        str[k] = toupper(str[k]);
+    }
+}
+
+int main() {
+    char input[100];
+    int k;
+
+    printf("Enter a string: ");
+    scanf("%s", input);
+    printf("Enter the value of k: ");
+    scanf("%d", &k);
+
+    capitalizeKthCharacter(input, k - 1); 
+
+    printf("Modified string: %s\n", input);
+
+    return 0;
+}
